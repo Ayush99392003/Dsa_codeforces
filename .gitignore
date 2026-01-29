@@ -1,0 +1,15 @@
+# Ignore everything by default
+*
+
+# But allow directories so we can unignore some files
+!*/
+
+# Keep README and this .gitignore
+!.gitignore
+!README.md
+
+# Allow C++ source files
+!*.cpp
+
+# Allow VSCode config (optional)
+!.vscode/
